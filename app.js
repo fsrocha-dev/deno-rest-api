@@ -1,6 +1,7 @@
 import { Application } from "https://deno.land/x/oak/mod.ts";
 
 import router from './routes.js';
+import './database/mysql.js';
 
 const env = Deno.env.toObject();
 const PORT = env.PORT || 4000;
