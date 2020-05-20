@@ -4,7 +4,7 @@ import router from './routes.js';
 import './database/mysql.js';
 
 const env = Deno.env.toObject();
-const PORT = env.PORT || 4000;
+const PORT = 7000;
 const HOST = env.HOST || '127.0.0.1';
 
 const app = new Application();

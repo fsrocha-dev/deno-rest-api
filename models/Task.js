@@ -2,7 +2,7 @@ import db from '../database/mysql.js'
 
 class Task {
   find() {
-    return db.query('SELECT * FROM tasks;');
+    return db.query(`SELECT * FROM tasks;`);
   }
 }
 
